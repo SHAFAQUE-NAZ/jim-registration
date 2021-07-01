@@ -1,0 +1,104 @@
+body{ 
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../assets/chacchi.jpg');
+    background-repeat: no-repeat;
+    background-size: 1600px 760px
+
+}
+
+
+.left{
+    
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    /*border: 2px solid red;*/
+    display: inline-block;
+}
+
+.left img{
+    width: 107px;
+    height: 72px
+}
+
+
+.mid{
+    
+    display: block;
+    width: 45%;
+    margin: 4px auto;
+    /*border: 2px solid green;*/
+    
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    /*border: 2px solid blue;*/
+    
+    
+    
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a{
+ color: white;
+ text-decoration: none;
+ padding: 20px;
+ font-size: 25px;
+}
+
+.navbar li a:hover , .navbar li a.active{
+ color: grey;
+ text-decoration: underline;
+ 
+}
+.btn{
+    color: white;
+background-color: black;
+border: 2px solid grey;
+border-radius: 6px;
+padding: 4px 14px;
+margin: 8px auto;
+font-size: 20px;
+cursor: pointer;
+
+}
+
+.btn:hover{
+    color: grey;
+}
+
+.container{
+    border: 2px solid white;
+width: 33%;
+margin: 72px 127px;
+padding: 44px 45px;
+}
+
+.form-group input{
+    margin: 17px auto;
+padding: 4px 2px;
+width: 94%;
+display: block;
+text-align: center;
+font-size: 23px;
+border: 2px solid white;
+border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+    color: white;
+}
+.container button{
+    width: 98%;
+}
